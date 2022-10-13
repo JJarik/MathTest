@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="379.0" prefWidth="700.0" style="-fx-background-color: abcdef;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TotalMarkController">
+    <children>
+        <Label layoutX="34.0" layoutY="23.0" style="-fx-font-size: 35;" text="Шкільний тест з математики пройдено!" />
+      <AnchorPane layoutX="17.0" layoutY="86.0" prefHeight="276.0" prefWidth="665.0" style="-fx-background-color: fdfdfd;">
+         <children>
+            <Label fx:id="lvlAMark" layoutX="55.0" layoutY="43.0" text="lvlAMark">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvlBMark" layoutX="256.0" layoutY="42.0" text="lvlBMark">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="lvlCMark" layoutX="453.0" layoutY="43.0" text="lvlCMark">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label fx:id="totalMark" layoutX="153.0" layoutY="142.0" text="Загальна оцінка: ">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
