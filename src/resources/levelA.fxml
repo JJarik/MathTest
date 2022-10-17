@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0"
+            prefWidth="600.0" style="-fx-background-color: abcdef;" xmlns="http://javafx.com/javafx/8.0.171"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.LevelAController">
+   <Label layoutX="19.0" layoutY="14.0" style="-fx-font-size: 25;" text="Рівень А"/>
+   <AnchorPane layoutX="19.0" layoutY="59.0" prefHeight="622.0" prefWidth="563.0"
+               style="-fx-background-color: fafafa;">
+      <Label layoutX="8.0" layoutY="7.0" style="-fx-font-size: 24;" text="1) Чому дорівнює π?"/>
+      <RadioButton fx:id="buttonT1A1" layoutX="14.0" layoutY="43.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="3"/>
+      <RadioButton fx:id="buttonT1A2" layoutX="14.0" layoutY="77.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="2,14"/>
+      <RadioButton fx:id="buttonT1A3" layoutX="136.0" layoutY="41.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="3,14"/>
+      <RadioButton fx:id="buttonT1A4" layoutX="136.0" layoutY="75.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="14"/>
+      <Button fx:id="buttonNextLevel" layoutX="469.0" layoutY="574.0" mnemonicParsing="false" prefHeight="42.0"
+              prefWidth="88.0" text="Далі"/>
+      <Label layoutX="8.0" layoutY="121.0" style="-fx-font-size: 24;" text="2) Чому дорівнює діаметр кола? "/>
+      <RadioButton fx:id="buttonT2A1" layoutX="14.0" layoutY="157.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="2*r"/>
+      <RadioButton fx:id="buttonT2A2" layoutX="14.0" layoutY="191.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="r^2"/>
+      <RadioButton fx:id="buttonT2A3" layoutX="136.0" layoutY="155.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="r/2"/>
+      <RadioButton fx:id="buttonT2A4" layoutX="136.0" layoutY="189.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="r"/>
+      <Label layoutX="8.0" layoutY="237.0" style="-fx-font-size: 24;" text="3) Чому НЕ дорівнює вираз: (7+ 6) * 2"/>
+      <RadioButton fx:id="buttonT3A1" layoutX="14.0" layoutY="273.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="19"/>
+      <RadioButton fx:id="buttonT3A2" layoutX="14.0" layoutY="307.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="26"/>
+      <RadioButton fx:id="buttonT3A3" layoutX="136.0" layoutY="271.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="2 * 13"/>
+      <RadioButton fx:id="buttonT3A4" layoutX="136.0" layoutY="305.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="30 - 4"/>
+      <Label layoutX="8.0" layoutY="349.0" style="-fx-font-size: 24;"
+             text="4) Чому НЕ дорівнює х, при y = 3: 5 + 3 * x = 11"/>
+      <RadioButton fx:id="buttonT4A1" layoutX="14.0" layoutY="385.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="x = 2"/>
+      <RadioButton fx:id="buttonT4A2" layoutX="14.0" layoutY="419.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="x = 4/2"/>
+      <RadioButton fx:id="buttonT4A3" layoutX="136.0" layoutY="383.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="x = y - 1"/>
+      <RadioButton fx:id="buttonT4A4" layoutX="136.0" layoutY="417.0" mnemonicParsing="false"
+                   style="-fx-font-size: 20;" text="x = y + 1"/>
+   </AnchorPane>
+</AnchorPane>

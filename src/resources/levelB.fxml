@@ -5,7 +5,7 @@
 <?import javafx.scene.control.RadioButton?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="800.0" style="-fx-background-color: abcdef;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LevelBController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="800.0" style="-fx-background-color: abcdef;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.controller.LevelBController">
     <children>
         <Label layoutX="19.0" layoutY="14.0" style="-fx-font-size: 25;" text="Рівень B(оберіть декілька відповідей)" />
         <AnchorPane layoutX="19.0" layoutY="59.0" prefHeight="650.0" prefWidth="763.0" style="-fx-background-color: fafafa;">
